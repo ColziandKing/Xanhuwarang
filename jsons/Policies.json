@@ -345,6 +345,17 @@
 				"row": 2,
 				"column": 3
 			},
+            {
+                "name": "Monasticism",
+                "uniques": [
+			"Gain a free [Garden] [in all cities]", "[+1 Faith] from every [Garden]",
+		],
+				"requires": [
+					"Mandate Of Heaven"
+				],
+                "row": 2,
+                "column": 5
+            },
 			{
 				"name": "Piety Complete",
 				"uniques": [
@@ -415,10 +426,24 @@
 				"column": 4
 			},
 			{
+				"name": "Trade Unions",
+				"uniques": [
+					"Can spend Gold to annex or puppet a City-State that has been your Ally for [10] turns",
+                    "Allied City-States provide [Gold] equal to [+30]% of what they produce for themselves",
+					"Allied City-States provide [Food] equal to [+40]% of what they produce for themselves",
+				],
+				"requires": [
+					"Philantropy",
+					"Consulates"
+				],
+				"row": 2,
+				"column": 4
+			},
+			{
 				"name": "Merchant Confederacy", // Was Educated Elite
 				"requires": [
 					"Scholasticism",
-					"Consulates"
+					"Trade Unions"
 				],
 				"uniques": [
 					"[+2 Gold] from each Trade Route <in [in City-State cities] cities>"
@@ -505,6 +530,17 @@
 				],
 				"row": 3,
 				"column": 2
+			},
+			{
+				"name": "Educated Elite",
+				"uniques": [
+                                        "[+10]% [Production] [in all cities]",
+				],
+				"requires": [
+					"Free Thought"
+				],
+				"row": 3,
+				"column": 4
 			},
 			{
 				"name": "Rationalism Complete",
@@ -660,6 +696,17 @@
 				"row": 2,
 				"column": 4
 			},
+            {
+                "name": "Free Trade",
+                "uniques": [
+                    "Retain [25]% of the happiness from a luxury after the last copy has been traded away",
+		],
+				"requires": [
+					"Entrepreneurship"
+				],
+                "row": 3,
+                "column": 2
+            },
 			{
 				"name": "Protectionism",
 				"uniques": [
@@ -1486,7 +1533,7 @@
 			{
 				"name": "Constitution",
 				"uniques": [
-                                        "[+2 Happiness] [in all cities connected to capital]",
+                                        "[+2 Culture] [in all cities connected to capital]",
 					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 2 Policy]> <hidden from users>"
 				],
@@ -1532,132 +1579,6 @@
 			}
 		]
 	},
-    {
-        "name": "Humor",
-        "era": "Future era",
-        "priorities": {
-            "Neutral": 10,
-            "Cultural": 0,
-            "Diplomatic": 0,
-            "Domination": 10,
-            "Scientific": 0
-        },
-        "uniques": [
-            "[+1 Happiness] per [2] population [in all cities]",
-			"Adopt [Comedic Journalism]",
-		],
-        "policies": [
-            {
-                "name": "Comedic Journalism",
-                "uniques": [
-                    "[+2 Happiness] from every [Broadcast Tower]"
-                ],
-                "row": 1,
-                "column": 1
-            },
-            {
-                "name": "Gelotology",
-                "uniques": [
-                    "[+1 Happiness] from every [Medical Lab]","[+1 Happiness] from every [Hospital]"
-                ],
-                "row": 1,
-                "column": 3
-            },
-            {
-                "name": "Kabarett",
-                "uniques": [
-                    "[+2 Culture, +1 Happiness] from every [Amphitheater]","[+2 Culture, +1 Happiness] from every [Theatre]"
-                ],
-                "row": 1,
-                "column": 5
-            },
-            {
-                "name": "Political Cartoon",
-                "uniques": [
-                    "[+1 Happiness] from all [Culture] buildings <when below [-10] [Happiness]>"
-                ],
-                "row": 2,
-                "column": 1
-            },
-            {
-                "name": "Political Satire",
-                "uniques": [
-                    "[+1 Happiness] per every [8] [Culture]"
-                ],
-                "row": 2,
-                "column": 3
-            },
-            {
-                "name": "Humor Complete",
-                "uniques": [
-                    "[+2 Happiness, +1 Culture] per [2] population [in all cities]"
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Voluntarism",
-        "era": "Future era",
-        "priorities": {
-            "Neutral": 10,
-            "Cultural": 0,
-            "Diplomatic": 0,
-            "Domination": 10,
-            "Scientific": 0
-        },
-        "uniques": [
-            "[+2 Production, +2 Food] per [2] population [in capital]",
-			"Adopt [Black Bloc]",
-		],
-        "policies": [
-            {
-                "name": "Anarchism",
-                "uniques": [
-                    "[-50]% unhappiness from the number of cities"
-                ],
-                "row": 1,
-                "column": 1
-            },
-            {
-                "name": "Black Bloc",
-                "uniques": [
-                    "No movement cost to pillage"
-                ],
-                "row": 1,
-                "column": 3
-            },
-            {
-                "name": "Insurgent Army",
-                "uniques": [
-                    "[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
-                ],
-                "row": 1,
-                "column": 5
-            },
-            {
-                "name": "Mutual Aid",
-                "uniques": [
-                    "Allied City-States provide [Gold] equal to [+30]% of what they produce for themselves","Allied City-States provide [Food] equal to [+40]% of what they produce for themselves"
-                ],
-                "row": 2,
-                "column": 1
-            },
-            {
-                "name": "Self-Organization",
-                "uniques": [
-                    "[+15]% [Production] [in all cities]"
-                ],
-                "row": 2,
-                "column": 3
-            },
-            {
-                "name": "Voluntarism Complete",
-                "uniques": [
-                    "[+3 Production, +3 Food] per [2] population [in all cities]"
-                ]
-            }
-        ]
-			},
 
 	{
 		"name": "Unavailable",
@@ -1689,30 +1610,6 @@
 				"row": 1,
 				"column": 1
 			},
-			{
-				"name": "Educated Elite",
-				"uniques": [
-					"Free Technology <upon discovering [Education] technology>",
-                                        "[+10]% [Production] [in all cities]",
-			"Comment [Recommended for Autocracy civs]",
-					"Only available <when above [1] [Level 3 Policy]> <hidden from users>"
-				],
-				"row": 1,
-				"column": 3
-			},
-			{
-				"name": "Trade Unions",
-				"uniques": [
-					"Free Social Policy <upon discovering [Guilds] technology>",
-					"Can spend Gold to annex or puppet a City-State that has been your Ally for [10] turns",
-                    "Allied City-States provide [Gold] equal to [+30]% of what they produce for themselves",
-					"Allied City-States provide [Food] equal to [+40]% of what they produce for themselves",
-			"Comment [Recommended for Freedom & Autocracy civs]",
-					"Only available <when above [1] [Level 3 Policy]> <hidden from users>"
-				],
-				"row": 1,
-				"column": 5
-			},
             {
                 "name": "Religious Orders",
                 "uniques": [
@@ -1722,18 +1619,8 @@
 			"Comment [Recommended for Freedom & Autocracy civs]",
 					"Only available <when above [1] [Level 3 Policy]> <hidden from users>"
                 ],
-                "row": 2,
-                "column": 1
-            },
-            {
-                "name": "Monasticism",
-                "uniques": [
-			"Gain a free [Garden] [in all cities]", "[+1 Faith] from every [Garden]",
-			"Comment [Recommended for Freedom civs]",
-					"Only available <when above [1] [Level 3 Policy]> <hidden from users>"
-		],
-                "row": 2,
-                "column": 3
+                "row": 1,
+                "column": 5
             },
 			{
 				"name": "Planned Economy",
@@ -1744,7 +1631,7 @@
 					"Only available <when above [1] [Level 3 Policy]> <hidden from users>"
 				],
 				"row": 2,
-				"column": 5
+				"column": 3
 			},
 			{
 				"name": "Diplomatic Missions",
@@ -1757,16 +1644,6 @@
 				"row": 3,
 				"column": 1
 			},
-            {
-                "name": "Free Trade",
-                "uniques": [
-                    "Retain [25]% of the happiness from a luxury after the last copy has been traded away",
-			"Comment [Recommended for Freedom civs]",
-					"Only available <when above [1] [Level 3 Policy]> <hidden from users>"
-		]
-                "row": 3,
-                "column": 3
-            },
         {
             "name": "Autarky",
             "uniques": [
