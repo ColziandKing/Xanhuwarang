@@ -1292,33 +1292,9 @@
 				]
 			},
 			{
-				"text": "Educated Elite",
-				"uniques": [
-		 			"Adopt [Educated Elite]",
-				]
-			},
-			{
-				"text": "Trade Unions",
-				"uniques": [
-		 			"Adopt [Trade Unions]",
-				]
-			},
-			{
 				"text": "Religious Orders",
 				"uniques": [
 		 			"Adopt [Religious Orders]",
-				]
-			},
-			{
-				"text": "Monasticism",
-				"uniques": [
-		 			"Adopt [Monasticism]",
-				]
-			},
-			{
-				"text": "Planned Economy",
-				"uniques": [
-		 			"Adopt [Planned Economy]",
 				]
 			},
 			{
@@ -1328,9 +1304,9 @@
 				]
 			},
 			{
-				"text": "Free Trade",
+				"text": "Planned Economy",
 				"uniques": [
-		 			"Adopt [Free Trade]",
+		 			"Adopt [Planned Economy]",
 				]
 			},
 			{
