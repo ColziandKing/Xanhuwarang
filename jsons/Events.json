@@ -1,0 +1,65 @@
+[
+  
+	// Specia Policy
+	{
+		"name": "Special Policy",
+		"text": "Choose special policy! Three times, and remember not to pick what you already chose.",
+		"presentation": "Alert",
+		"choices": [
+			{
+				"text": "Free Religion",
+				"uniques": [
+		 			"Adopt [Free Religion]",
+				]
+			},
+			{
+				"text": "Educated Elite",
+				"uniques": [
+		 			"Adopt [Educated Elite]",
+				]
+			},
+			{
+				"text": "Trade Unions",
+				"uniques": [
+		 			"Adopt [Trade Unions]",
+				]
+			},
+			{
+				"text": "Religious Orders",
+				"uniques": [
+		 			"Adopt [Religious Orders]",
+				]
+			},
+			{
+				"text": "Monasticism",
+				"uniques": [
+		 			"Adopt [Monasticism]",
+				]
+			},
+			{
+				"text": "Planned Economy",
+				"uniques": [
+		 			"Adopt [Planned Economy]",
+				]
+			},
+			{
+				"text": "Diplomatic Missions",
+				"uniques": [
+		 			"Adopt [Diplomatic Missions]",
+				]
+			},
+			{
+				"text": "Free Trade",
+				"uniques": [
+		 			"Adopt [Free Trade]",
+				]
+			},
+			{
+				"text": "Autarky",
+				"uniques": [
+		 			"Adopt [Autarky]",
+				]
+			}
+		]
+	},
+]
