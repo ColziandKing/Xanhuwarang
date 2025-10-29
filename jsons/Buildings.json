@@ -1,4 +1,44 @@
 [
+		//Hong Kong
+		{
+			"name": "Dragon Dock",
+			"replaces": "Harbor",
+			"uniqueTo": "Hong Kong",
+			"cost": 120,
+			"maintenance": 3,
+			"hurryCostModifier": 25,
+			"uniques": ["[+1 Production] from [Water resource] tiles [in this city]",
+			 "[+1 Culture] from [Coast] tiles [in this city]",
+			  "[+1 Culture, +1 Gold] from [Lake] tiles [in this city]",
+				"Connects trade routes over water","Must be next to [Water]"],
+			"requiredTech": "Optics"
+		},
+
+		//Samoa
+		{
+			"name": "Fale Tele",
+			"replaces": "Harbor",
+			"uniqueTo": "Samoa",
+			"faith": 1,
+			"cost": 90,
+			"maintenance": 2,
+			"hurryCostModifier": 25,
+			"uniques": ["[+1 Production] from [Water resource] tiles [in this city]",
+				"Connects trade routes over water","Must be next to [Coast]"],
+			"requiredTech": "Theology"
+		},
+		//Malaysia
+		{
+			"name": "Dermaga",
+			"replaces": "Harbor",
+			"uniqueTo": "Malaysia",
+			"cost": 120,
+			"maintenance": 2,
+			"hurryCostModifier": 25,
+			"uniques": ["[+1 Production, +1 Gold] from [Water resource] tiles [in this city]", "[+1 Culture] from each Trade Route",
+				"Connects trade routes over water","Must be next to [Coast]"],
+			"requiredTech": "Optics"
+		},
 	{
 		"name": "Stonehenge",
 		"faith": 5,
