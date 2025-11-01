@@ -1,4 +1,24 @@
 [
+	{
+		"name": "Harbor",
+		"cost": 120,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": [
+			// TODO: Forms a City Connection with the Capital over water.
+			"Connects trade routes over water",
+			// TODO: Sea trade routes originating from this city have a 50% increase in range and produce an additional 1 Gold when connecting to another civilization. A Harbor must also exist in the Capital (or in a city connected to the Capital).
+			"All newly-trained [Cargo Ship] units [in this city] receive the [[Harbor] ability] promotion",
+			"Must be next to [Coast]"
+		],
+		"requiredTech": "Optics"
+		"civilopediaText": [
+			{
+				"text": "[Harbor] ability",
+				"link": "Promotion/[Harbor] ability"
+			}
+		]
+	},
 		//Hong Kong
 		{
 			"name": "Dragon Dock",
