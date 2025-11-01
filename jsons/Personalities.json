@@ -1,4 +1,38 @@
 [
+  {
+    "name": "Pericles",
+    "production": 5,
+    "food": 4,
+    "gold": 3,
+    "science": 6,
+    "culture": 7,
+    "happiness": 5,
+    "faith": 5,
+    "military": 5,
+    "aggressive": 8,
+    "declareWar": 6,
+    "commerce": 6,
+    "diplomacy": 3,
+    "loyal": 4,
+    "expansion": 8,
+    "priorities": {
+      "Tradition": 7,
+      "Liberty": 8,
+      "Honor": 6,
+      "Commerce": 4,
+      "Patronage": 4,
+      "Piety": 6,
+      "Rationalism": 7,
+      "Freedom": 7,
+      "Autocracy": 6,
+      "Order": 6
+    },
+    "civilopediaText": [
+      {
+        "text": "Pericles (c. 495 – 429 BC) was a prominent Greek statesman, orator, and general who led Athens from roughly 461 BC until his death. His many military, political, and cultural achievements have led to this period being considered the Golden Age of Athens, becoming known as the Age of Pericles.",
+	  }
+    ]
+  },
 	{
 	"name": "José Rizal",
 	"preferredVictoryType": "Cultural",
